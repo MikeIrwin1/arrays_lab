@@ -13,7 +13,11 @@ def sum_array(numbers)
 end
 
 # find item within an array, return true if present
-
 def find_item(houses, item)
   houses.include?(item)
+end
+
+#get_first_key test
+def get_first_key(hash)
+  return hash.keys[0]
 end
